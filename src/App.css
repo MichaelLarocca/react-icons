@@ -6,7 +6,10 @@ body {
 }
 
 nav {
-  border: 1px solid red;
+  border: 3px solid black;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  background-color: gray;
+  color: whitesmoke;
   width: 100%;
   height: 50px;
   position: fixed;
@@ -15,12 +18,12 @@ nav {
 
 main {
   flex-grow: 1;
-  border: 1px solid red;
-  margin-top: 50px;
+  margin-top: 125px;
 }
 
 footer {
-  border: 1px solid red;
+  border: 3px solid black;
+  background-color: gray;
   height: 50px;
   width: 100%;
   position: fixed;
@@ -30,7 +33,6 @@ footer {
 }
 
 .social-icons {
-  border: 1px solid blue;
   display: flex;
   justify-content: space-around;
   align-items: center;
