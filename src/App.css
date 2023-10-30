@@ -38,3 +38,13 @@ footer {
   align-items: center;
   width: 300px;
 }
+
+.icon {
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+.icon:hover,
+.icon:focus {
+  color: black;
+}
